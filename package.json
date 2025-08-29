@@ -1,0 +1,19 @@
+{
+  "name": "webcodecs-sdk-test",
+  "version": "1.0.0",
+  "description": "This project is a browser-based WebCodecs demo that captures video frames from the user's front-facing camera, encodes them using the VP8 codec, and displays the encoded chunks along with their decoded frame previews.",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^30.1.1",
+    "jest-environment-jsdom": "^30.1.1"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "OleksiiGIT",
+  "license": "ISC",
+  "type": "module",
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
