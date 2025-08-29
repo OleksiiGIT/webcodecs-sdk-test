@@ -2,6 +2,8 @@
 
 ## Preview
 
+[Live Demo](https://oleksiigit.github.io/webcodecs-sdk-test/)
+
 This project is a browser-based demo that captures video frames from the user's front-facing camera, encodes them using the VP8 codec via the WebCodecs API, and displays the encoded chunks along with their decoded frame previews. The UI allows you to start and stop the test, and view all encoded frames and their metadata in a list.
 
 ## Project Structure & Explanation
